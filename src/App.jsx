@@ -17,9 +17,10 @@ function App() {
      <NavBar />
      
      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/exercise/:id' element={<ExerciseDetail/>}/>
-     </Routes>
+  <Route path='/' element={<Home />} />
+  <Route path='/exercise' element={<Home />} />
+  <Route path='/exercise/:id' element={<ExerciseDetail />} />
+</Routes>
 
      <Footer/>
 
